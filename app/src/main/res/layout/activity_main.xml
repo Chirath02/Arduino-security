@@ -39,10 +39,10 @@
         android:layout_alignStart="@+id/phone1" />
 
     <Button
-        android:text="Set"
+        android:text="connect"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/setNumbers"
+        android:id="@+id/Connect"
         android:layout_below="@+id/phone2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -64,8 +64,8 @@
         android:textSize="24sp"
         android:textStyle="normal|bold"
         android:textColor="@android:color/holo_red_light"
-        android:layout_alignBaseline="@+id/setNumbers"
-        android:layout_alignBottom="@+id/setNumbers"
+        android:layout_alignBaseline="@+id/Connect"
+        android:layout_alignBottom="@+id/Connect"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
