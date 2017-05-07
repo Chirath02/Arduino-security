@@ -176,7 +176,7 @@ public class MainActivity extends AppCompatActivity {
 
                     try {
                         Intent callIntent = new Intent(Intent.ACTION_CALL);
-                        callIntent.setData(Uri.parse("tel:8547801861"));
+                        callIntent.setData(Uri.parse("tel:1234567890"));
 
                         if (ActivityCompat.checkSelfPermission(c, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                             // TODO: Consider calling
